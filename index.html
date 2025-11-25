@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayrton Almada – Academic Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-white shadow-md py-6">
+    <div class="max-w-5xl mx-auto px-4 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <img src="assets/pic.jpg" alt="Profile" class="w-16 h-16 rounded-full border" />
+        <div>
+          <h1 class="text-xl font-bold">Ayrton Pablo Almada Jimenez</h1>
+          <p class="text-sm text-gray-600">PhD Student | Researcher in Power Grids</p>
+        </div>
+      </div>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#publications" class="hover:underline">Publications</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-10">
+    <!-- About Section -->
+    <section id="about" class="mb-12">
+      <h2 class="text-2xl font-bold mb-2">About Me</h2>
+      <p class="text-gray-700">
+        I'm currently a PhD student at The University of Arizona, working under the supervision of Michael Chertkov.
+        My research focuses on Rare events in the transmission level power system dynamics.
+      </p>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Publications</h2>
+      <ul class="space-y-4">
+        <li>
+          <strong>Análisis espectral de procesos de difusión cambiantes</strong><br/>
+          <em>Universidad Nacional Autónoma de México, Facultad de Ciencias, 2022</em><br/>
+          <a href="https://ru.dgb.unam.mx/items/8bb6d6f3-7db8-4a97-8ef7-40411e6536e7" class="text-blue-600 hover:underline">[PDF]</a>
+        </li>
+        <li>
+          <strong>Real-Time Stochastic Assessment of Dynamic N-1 Grid Contingencies</strong><br/>
+          <em>Program in Applied Mathematics and Department of Mathematics, University of Arizona, 2025</em><br/>
+          <a href="https://arxiv.org/pdf/2510.18007" class="text-blue-600 hover:underline">[PDF]</a>
+        </li>
+        <!-- Add more -->
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="p-4 bg-white shadow-md rounded-lg">
+          <h3 class="font-semibold">A Methodology to estimate the probability of rare events in the transmission level power system dynamics.
+</h3>
+          <p class="text-sm text-gray-600">We study rare failures associated with cleared faults in the transmission level power system dynamics described by swing equations. We assume that (a) prior to a fault, which may occur at random at any line, the system was in a balanced state; (b) fault is cleared within a few seconds; (c) a failure is counted at a power line of the system if during the post-fault transient (before or after the fault is cleared) power flow along the line exceeded a safe limit. The goal of this project is to develop a procedure to understand, estimate and analyze the dynamics of any given power grid that satisfies the linear swing equations. We are looking for a way to determine the distribution of the magnitude of the overloading of the system over time. This way we can determine how reliable and stable the system is even if there are failures in the grid for a random period of time.</p>
+        </div>
+        <!-- Add more -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2 class="text-2xl font-bold mb-4">Contact</h2>
+      <p>Email: <a href="mailto:p.ayrtonalmada@gmail.com" class="text-blue-600 hover:underline">p.ayrtonalmada@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ayrton-almada-309b1a125/" class="text-blue-600 hover:underline">AyrtonAlmada</a></p>
+      <p>GitHub: <a href="https://github.com/AyrtonAlmada" class="text-blue-600 hover:underline">AyrtonAlmada</a></p>
+    </section>
+  </main>
+
+  <footer class="bg-white text-center text-gray-500 text-sm py-4">
+    © 2025 Ayrton Almada. All rights reserved.
+  </footer>
+</body>
+</html>
